@@ -1,11 +1,11 @@
 import React from 'react';
-
+import "../src/HomeScreen.css";
 function HomeScreen() {
     return (
-        <div>
+        <div className='homeScreen'></div>
+        // nav
 
-        </div>
-    )
+    );
 
 }
 
