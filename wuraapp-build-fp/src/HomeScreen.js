@@ -3,7 +3,7 @@ import "../src/HomeScreen.css";
 import Nav from './Nav';
 import Banner from '../src/Banner.js';
 import requests from './Request.js';
-import Row from '../src/Row.js';
+import Row from './Row.js';
 function HomeScreen() {
     return (
       <div className="homeScreen">
@@ -15,31 +15,31 @@ function HomeScreen() {
         isLargerRow
         />
         <Row
-        title = "Trending Now"
+        title = "WURA Trending Now"
         fetchUrl = {requests.fetchTrending}
         />
         <Row
-        title = "Highly Rated"
+        title = "WURA Highly Rated"
         fetchUrl = {requests.fetchTopRated}
         />
         <Row
-        title = "Action Movies"
+        title = "WURA Action Movies"
         fetchUrl = {requests.fetchActionMovies}
         />
         <Row
-        title = "Comedy Movies"
+        title = "WURA Comedy Movies"
         fetchUrl = {requests.fetchComedyMovies}
         />
         <Row
-        title = "Horror Movies"
+        title = "WURA Horror Movies"
         fetchUrl = {requests.fetchHorrorMovies}
         />
         <Row
-        title = "Romance Movies"
+        title = "WURA Romance Movies"
         fetchUrl = {requests.fetchRomanceMovies}
         />
         <Row
-        title = "Docu Series"
+        title = "WURA Docu Series"
         fetchUrl = {requests.fetchDocumentaries}
         />
       </div>
