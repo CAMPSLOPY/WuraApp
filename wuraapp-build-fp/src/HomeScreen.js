@@ -12,7 +12,7 @@ function HomeScreen() {
         <Row
         title = "WURA ORIGINALS"
         fetchUrl = {requests.fetchNetflixOriginals}
-        isLargerRow
+        isLargeRow
         />
         <Row
         title = "WURA Trending Now"
