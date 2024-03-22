@@ -1,5 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import "./Nav.css";
+import wura from './wura.jpeg';
 function Nav() {
 
     const [show, handleShow] = useState(false);
@@ -21,7 +22,7 @@ return () => window.removeEventListener("scroll", transitionNavBar);
         <div className={`nav ${show &&'nav_black'}`}>
             <div className="nav_contents">
 
-            <img className='nav_logo' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" />
+            <img className='nav_logo' src={wura} alt="" />
             <img 
             className='nav_avatar'
             src="https://png.pngtree.com/png-clipart/20210915/ourmid/pngtree-avatar-icon-abstract-user-login-icon-png-image_3917181.jpg" alt="" />
